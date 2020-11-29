@@ -1,0 +1,36 @@
+{
+  "name": "videofbweb_react_express",
+  "version": "1.0.0",
+  "description": "react frontend with express backend ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Usman Shery (usman.shery@gmail.com)",
+  "license": "MIT",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.20",
+    "aws-sdk": "^2.756.0",
+    "aws-smtp-credentials": "^1.0.0",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "create-react-app": "^3.4.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-flash": "0.0.2",
+    "express-session": "^1.17.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.15",
+    "nodemailer-ses-transport": "^1.5.1",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
